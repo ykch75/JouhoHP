@@ -117,7 +117,8 @@ nav li {
 /*メイン画像
 -------------------------------------*/
 .mainimg img {
-	width: 100vw;
+    width: 100vw;
+    height: auto;
 }
 
 /*メインコンテンツ
@@ -189,3 +190,23 @@ footer h5 {
     display: inline-block;
     color: #959fa5;
 }
+
+.youtube {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+  }
+  .youtube iframe {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .iconimg{
+    width: 30%;
+    padding:2px;
+    border : solid 1px;
+    text-align: center;
+  }
